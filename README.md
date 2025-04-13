@@ -45,14 +45,14 @@ The agent is trained using the **Deep Q-Learning algorithm**:
 
 ## 📂 Project Structure
 
- -├── agent.py # Contains the DQN agent logic and training
- -├── model.py # Neural network architecture 
- -├── game.py # Game environment using Pygame  
- -├── helper.py # Real-time plot of score trends 
- -├── model.pth # Saved model (optional) 
- -├── requirements.txt # Python dependencies 
- -└── snake_game_human.py # game where a human player can control the snake using the keyboard 
- -└── README.md # Project overview
+ - ├── agent.py # Contains the DQN agent logic and training
+ - ├── model.py # Neural network architecture 
+ - ├── game.py # Game environment using Pygame  
+ - ├── helper.py # Real-time plot of score trends 
+ - ├── model.pth # Saved model (optional) 
+ - ├── requirements.txt # Python dependencies 
+ - └── snake_game_human.py # game where a human player can control the snake using the keyboard 
+ - └── README.md # Project overview
 
 ---
 
@@ -66,41 +66,41 @@ The agent is trained using the **Deep Q-Learning algorithm**:
 
 ## ⚙️ Requirements
 
-Main Libraries:
+- Main Libraries:
 
-Python 3.7+
+- Python 3.7+
 
-PyTorch
+- PyTorch
 
-Pygame
+- Pygame
 
-Matplotlib
+- Matplotlib
 
 ---
 
 ## 📈 Output
 
-Real-time game window with Snake and food.
+- Real-time game window with Snake and food.
 
-Live plot showing score and mean score over time.
+- Live plot showing score and mean score over time.
 
-Model saved when best performance is achieved.
+- Model saved when best performance is achieved.
 
 ---
 
 ## 📚 Concepts Used
 
-Reinforcement Learning
+- Reinforcement Learning
 
-Deep Q-Networks (DQN)
+- Deep Q-Networks (DQN)
 
-Epsilon-Greedy Exploration
+- Epsilon-Greedy Exploration
 
-Neural Networks
+- Neural Networks
 
-Experience Replay
+- Experience Replay
 
-Temporal Difference Learning
+- Temporal Difference Learning
 
 ---
 
@@ -112,13 +112,13 @@ After training for ~500-1000 games, the agent significantly improves and learns 
 
 ## 📌 Future Improvements
 
-Implement Double DQN
+- Implement Double DQN
 
-Add Prioritized Experience Replay
+- Add Prioritized Experience Replay
 
-Switch to CNN-based state input (grid representation)
+- Switch to CNN-based state input (grid representation)
 
-Save game replays as GIFs or videos
+- Save game replays as GIFs or videos
 
 ---
 
