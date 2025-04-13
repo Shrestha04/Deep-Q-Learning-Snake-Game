@@ -45,22 +45,14 @@ The agent is trained using the **Deep Q-Learning algorithm**:
 
 ## 📂 Project Structure
 
-├── agent.py # Contains the DQN agent logic and training
--
-├── model.py # Neural network architecture 
--
-├── game.py # Game environment using Pygame  
--
-├── helper.py # Real-time plot of score trends 
--
-├── model.pth # Saved model (optional) 
--
-├── requirements.txt # Python dependencies 
--
-└── snake_game_human.py # game where a human player can control the snake using the keyboard 
--
-└── README.md # Project overview
--
+ -├── agent.py # Contains the DQN agent logic and training
+ -├── model.py # Neural network architecture 
+ -├── game.py # Game environment using Pygame  
+ -├── helper.py # Real-time plot of score trends 
+ -├── model.pth # Saved model (optional) 
+ -├── requirements.txt # Python dependencies 
+ -└── snake_game_human.py # game where a human player can control the snake using the keyboard 
+ -└── README.md # Project overview
 
 ---
 
