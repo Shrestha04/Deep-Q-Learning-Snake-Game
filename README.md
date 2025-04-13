@@ -65,6 +65,7 @@ The agent is trained using the **Deep Q-Learning algorithm**:
 ---
 
 ## ⚙️ Requirements
+
 Main Libraries:
 
 Python 3.7+
@@ -77,7 +78,7 @@ Matplotlib
 
 ---
 
-📈 Output
+## 📈 Output
 Real-time game window with Snake and food.
 
 Live plot showing score and mean score over time.
@@ -85,7 +86,8 @@ Live plot showing score and mean score over time.
 Model saved when best performance is achieved.
 
 ---
-📚 Concepts Used
+
+## 📚 Concepts Used
 Reinforcement Learning
 
 Deep Q-Networks (DQN)
@@ -100,13 +102,14 @@ Temporal Difference Learning
 
 ---
 
-🏆 Results
-After training for ~500-1000 games, the agent significantly improves and learns to avoid collisions and chase food effectively. You can tune parameters in agent.py and train.py for better performance.
+## 🏆 Results
 
+After training for ~500-1000 games, the agent significantly improves and learns to avoid collisions and chase food effectively. You can tune parameters in agent.py and train.py for better performance.
 
 ---
 
-📌 Future Improvements
+## 📌 Future Improvements
+
 Implement Double DQN
 
 Add Prioritized Experience Replay
@@ -115,12 +118,13 @@ Switch to CNN-based state input (grid representation)
 
 Save game replays as GIFs or videos
 
-
 ---
-🤝 Contributing
+
+## 🤝 Contributing
+
 Pull requests and issues are welcome! If you’d like to enhance this project or fix bugs, feel free to fork and contribute.
 
-Made with ❤️ by Shrestha!
+## Made with ❤️ by Shrestha!
 
 
 
