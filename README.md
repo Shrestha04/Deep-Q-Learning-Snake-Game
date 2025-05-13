@@ -128,7 +128,7 @@ Pull requests and issues are welcome! If you’d like to enhance this project or
 
 ---
 
-## Made with ❤️ by Shrestha!
+### Made with ❤️ by Shrestha!
 
 
 
